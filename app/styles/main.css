@@ -482,7 +482,7 @@ body.noscroll {
 
 .introduction__content > p:first-child {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 2;
 }
 
@@ -935,16 +935,17 @@ ul.main {
 }
 
 .speaker-content__label {
-  background-color: #c2c2c2;
+  background-color: #a60000;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #4a4a4a;
+  color: #ffffff;
   width: 85px;
+  height: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .speaker-content__summary-text {
