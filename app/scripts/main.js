@@ -45,8 +45,8 @@ $(document).ready(function() {
   //     $('body').addClass('noscroll');
   //   }
   // });
-  $('.speaker-content__label').click(function() {
-    return false;
+  $('.speaker-content__label').click(function(e) {
+    e.stopPropagation();
   });
   $('.speaker-content__item').click(function() {
     $('#modal-speaker').css('display', 'block');
