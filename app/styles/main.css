@@ -798,7 +798,6 @@ ul.main {
   letter-spacing: 1.5px;
   background-color: #9a9a9a;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .column__tab-item:hover {
@@ -917,7 +916,6 @@ ul.main {
   width: 350px;
   box-sizing: border-box;
   background-color: #ffffff;
-  cursor: pointer;
   transition: all 0.3s;
 }
 

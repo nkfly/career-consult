@@ -45,38 +45,38 @@ $(document).ready(function() {
   //     $('body').addClass('noscroll');
   //   }
   // });
-  $('.speaker-content__label').click(function(e) {
-    e.stopPropagation();
-  });
-  $('.speaker-content__item').click(function() {
-    $('#modal-speaker').css('display', 'block');
-    $('body').addClass('noscroll');
-    var contentTitle = $(this).attr('data-content-title');
-    var speakerTitle = $(this).attr('data-speaker-title');
-    var speakerPic = $(this).attr('data-speaker-pic');
-    var speakerIntro = $(this).attr('data-speaker-intro');
-    var profileName = $(this).attr('data-profile-name');
-    var profilePositionTitle = $(this).attr('data-profile-position-title');
-    var profileJpYear = $(this).attr('data-profile-jp-year');
-    var profileCareerSwitchTimes = $(this).attr('data-profile-career-switch-times');
-    var profileOverseaExperience = $(this).attr('data-profile-oversea-experience');
-    var profileJpFavorite = $(this).attr('data-profile-jp-favorite');
-    var profileLifeDescription = $(this).attr('data-profile-life-description');
-    var profileSuggestion = $(this).attr('data-profile-suggestion');
-
-    $('#content-title').text(contentTitle);
-    $('#speaker-title').text(speakerTitle);
-    $('#speaker-pic').attr('src', speakerPic);
-    $('#speaker-intro').text(speakerIntro);
-    $('#profile-name').text(profileName);
-    $('#profile-position-title').text(profilePositionTitle);
-    $('#profile-jp-year').text(profileJpYear);
-    $('#profile-career-switch-times').text(profileCareerSwitchTimes);
-    $('#profile-oversea-experience').text(profileOverseaExperience);
-    $('#profile-jp-favorite').text(profileJpFavorite);
-    $('#profile-life-description').text(profileLifeDescription);
-    $('#profile-suggestion').text(profileSuggestion);
-  });
+  // $('.speaker-content__label').click(function(e) {
+  //   e.stopPropagation();
+  // });
+  // $('.speaker-content__item').click(function() {
+  //   $('#modal-speaker').css('display', 'block');
+  //   $('body').addClass('noscroll');
+  //   var contentTitle = $(this).attr('data-content-title');
+  //   var speakerTitle = $(this).attr('data-speaker-title');
+  //   var speakerPic = $(this).attr('data-speaker-pic');
+  //   var speakerIntro = $(this).attr('data-speaker-intro');
+  //   var profileName = $(this).attr('data-profile-name');
+  //   var profilePositionTitle = $(this).attr('data-profile-position-title');
+  //   var profileJpYear = $(this).attr('data-profile-jp-year');
+  //   var profileCareerSwitchTimes = $(this).attr('data-profile-career-switch-times');
+  //   var profileOverseaExperience = $(this).attr('data-profile-oversea-experience');
+  //   var profileJpFavorite = $(this).attr('data-profile-jp-favorite');
+  //   var profileLifeDescription = $(this).attr('data-profile-life-description');
+  //   var profileSuggestion = $(this).attr('data-profile-suggestion');
+  //
+  //   $('#content-title').text(contentTitle);
+  //   $('#speaker-title').text(speakerTitle);
+  //   $('#speaker-pic').attr('src', speakerPic);
+  //   $('#speaker-intro').text(speakerIntro);
+  //   $('#profile-name').text(profileName);
+  //   $('#profile-position-title').text(profilePositionTitle);
+  //   $('#profile-jp-year').text(profileJpYear);
+  //   $('#profile-career-switch-times').text(profileCareerSwitchTimes);
+  //   $('#profile-oversea-experience').text(profileOverseaExperience);
+  //   $('#profile-jp-favorite').text(profileJpFavorite);
+  //   $('#profile-life-description').text(profileLifeDescription);
+  //   $('#profile-suggestion').text(profileSuggestion);
+  // });
 
   $('.modal__speaker-content__close-btn').click(function() {
     $('#modal-speaker').css('display', 'none');
