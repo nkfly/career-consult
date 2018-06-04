@@ -153,6 +153,7 @@ $(document).ready(function() {
 
   $('.menu-wrapper a').click(function() {
     $('.navbar__menu').click();
+    console.log('hi');
     // const targetSection = $($(this).attr('href'));
     // console.log(targetSection.offset().top);
     // $('body').animate({
